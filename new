@@ -1,0 +1,23 @@
+//write a function in java script which can used to show or hide soemthing?
+const el = document.getElementById('container');
+    const btn = document.getElementById('btn');
+
+    btn.addEventListener('click', function handleClick() {
+    if (el.style.display === 'none') {
+        el.style.display = 'block';
+
+        btn.textContent = 'Hide element';
+    } else {
+        el.style.display = 'none';
+
+        btn.textContent = 'Show element';
+    }
+    });
+
+
+
+
+<!--DELIMITER-->Source: https://stackoverflow.com/questions/71753404
+
+
+
